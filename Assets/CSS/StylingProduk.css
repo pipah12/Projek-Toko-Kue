@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: white;
+  background-repeat:no-repeat;
+  background-position: left;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul{
+  list-style-type: none;
+  margin-left:0 ;
+  padding: 0;
+  width:100%;
+  height: 80px;
+  overflow:hidden;
+  position:fixed;
+  background-color: #850115;
+  display:flex;
+  align-items:center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+  
+li a {
+  margin:10px;
+  color:white;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #997950;
+}
+
+li img{
+  width:85px;
+  height:65px;
+}
+
+.produk-teks{
+  
+  margin-left: 10px;
+  text-align:center;
+  color:#850115;
+  font-weight:bold;
+  font-size:30px;
+  margin:auto;
+}
+
+.luxury{
+  display:flex;
+  list-style-type: none;
+  color:#997950;
+  font-weight: bold;
+  justify-content: space-between;
+  margin:50px;
+  font-size:large;
+  background-color:rgba(0,0,0,0.1);
+  align-items: center;
+}
+
+div.gallery {
+  border: 3px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid color
+}
+
+div.gallery img {
+  width: 200px;
+  height: 200px;
+}
+
+div.gallery img:hover {
+  width: 200px;
+  height: 200px;
+  transform: scale(1.1);
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color:#997950;
+} 
+
+.all-produk{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.gambar-produk1 {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+
+.gambar-produk2 {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+footer{
+  display:block;
+  background-color:;
+  color:#997950;
+  overflow:hidden;
+  padding:10px;
+  text-align: center;
+  bottom:0;
+  width:100%;
+  background:rgba(0,0,0,0.1) none repeat scroll 0 0;
+}
+
+footer img{
+  width:100px;
+  height:80px;
+  margin-right:25px;
+}
+
